@@ -44,7 +44,7 @@ int	main(void)
 	int	i;
 	
 	i = 0;
-	min = 2;
+	min = -10;
 	max = 10;
 	taille = max - min;
 	tab = ft_range(min, max);

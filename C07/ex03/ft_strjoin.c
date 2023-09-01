@@ -49,6 +49,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	char	*res;
 
 	i = 0;
+	taille = 0;
 	if (size == 0)
 		return (NULL);
 	while (i < size)

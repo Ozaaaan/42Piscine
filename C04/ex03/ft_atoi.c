@@ -36,9 +36,9 @@ int	ft_atoi(char *str)
 	}
 	return (signe * result);
 }
-
+/*
 int	main(void)
 {
 	char	str[] = "   ---+--+01234506789ab567";
 	printf("%d", ft_atoi(str));
-}
+}*/
